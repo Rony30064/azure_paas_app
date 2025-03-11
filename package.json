@@ -1,14 +1,20 @@
 {
   "name": "azure_paas_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejercicio de despliegue de la aplixcación azure",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository":{
+    "type": "git",
+    "url": "git+https://github.com/Rony30064/azure_paas_app"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
